@@ -1,0 +1,24 @@
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('black.png');
+    
+}
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('white.png');
+} 
+
+.shudan-goban {
+    --shudan-board-border-width: 0; 
+    --shudan-board-foreground-color: #000;
+    --shudan-board-background-color: none;
+
+    --shudan-black-foreground-color: rgba(255,255,255, 0.75);
+    --shudan-white-foreground-color: rgba(0,0,0, 0.75);
+    }
+.shudan-goban:not(.shudan-coordinates) {padding: 0;}
+.shudan-goban-image {background-image: url('board.png');}
+
+.shudan-gridline {fill:#000}
+
+.shudan-coordx span, .shudan-coordy span { color: rgba(37, 25, 5, 0.402)}
+.shudan-coordx div span {font-size: 0.4em; }
+.shudan-coordy div span {font-size: 0.4em; }
